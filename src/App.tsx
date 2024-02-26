@@ -3,6 +3,7 @@ import logo from "./assets/logo.png"
 import Img1 from "./assets/1.png"
 import Img2 from "./assets/2.png"
 import Img3 from "./assets/3.png"
+import { FaFacebook, FaGlobe, FaPhone } from 'react-icons/fa6'
 
 function App() {
 
@@ -33,9 +34,27 @@ function App() {
           <section className='section2'>
             <p>INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF POWER FOR THE NATION.</p>
             <img src={Img3} alt="Image 3"/>
+            <div>Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables - Solar Systems - Motors</div>
           </section>
         </main>
-        <footer></footer>
+        <footer>
+          <b>C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS</b>
+          <p>CHEMICALS & PROCESS | POWER | WATER & WASTE WATER | OILS & GAS PHARMA SUGARS & DISTILLERIES | PAPER & PULP | MARINE & DEFENCE | METAL & MINING | FOOD & BEVERAGE PETROCHEMICAL & REFINERIES | SOLAR | BUILDING | HVAC | FIRE FIGHTING | AGRICULTURE & RESIDENTIAL</p>
+          <div>
+            <div className="phone">
+              <FaPhone/>
+              <p>Toll free <b>1800 200 1234</b></p>
+            </div>
+            <div className="facebook">
+              <FaFacebook/>
+              <a href="www.facebook.com/cripumps">www.facebook.com/cripumps</a>
+            </div>
+            <div className="website">
+              <FaGlobe/>
+              <a href="www.crigroups.com">www.crigroups.com</a>
+            </div>
+          </div>
+        </footer>
     </>
   )
 }
