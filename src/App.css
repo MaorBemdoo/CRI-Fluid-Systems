@@ -30,7 +30,8 @@ main {
 }
 
 .section1_div1 {
-    display: none;
+    /* display: none; */
+    width: 100%;
 }
 
 .section1_div2 img {
@@ -39,6 +40,11 @@ main {
 
 .section2 img {
     width: 100%;
+}
+
+.section2 div{
+    padding: 1rem 0;
+    text-align: center;
 }
 
 footer {
@@ -54,6 +60,7 @@ footer {
 .footer_div1 span:not(:first-child)::before {
     content: "|";
     padding: 0.5rem;
+    color: red;
 }
 
 .footer_div2 {
