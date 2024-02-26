@@ -1,24 +1,42 @@
 *{
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
+    font-size: 14px;
 }
 
-body{
-  margin: 0;
+body {
+    margin: 0;
 }
 
-#root{
-  height: 100vh;
-  width: 100vw;
-  background: linear-gradient(white, #f9d287);
+#root {
+    width: calc(100vw - 2rem);
+    background: linear-gradient(white, #ffdb97);
+    padding: 1rem;
 }
 
-header{
-  text-align: center;
+header {
+    text-align: center;
 }
 
-header img{
-  width: 100%;
+header img {
+    width: 100%;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1_div1{
+    display: none;
+}
+
+.section1_div2{
+
+}
+
+.section1_div2 img{
+    width: 100%;
+}
+
+.section2 img{
+    width: 100%;
+}
