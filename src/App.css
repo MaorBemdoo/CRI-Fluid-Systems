@@ -1,8 +1,8 @@
-*{
+* {
     font-size: 14px;
 }
 
-a{
+a {
     color: inherit;
     text-decoration: none;
 }
@@ -12,7 +12,6 @@ body {
 }
 
 #root {
-    width: calc(100vw - 2rem);
     background: linear-gradient(white, #ffdb97);
     padding: 1rem;
 }
@@ -30,47 +29,59 @@ main {
     flex-direction: column;
 }
 
-.section1_div1{
+.section1_div1 {
     display: none;
 }
 
-.section1_div2 img{
+.section1_div2 img {
     width: 100%;
 }
 
-.section2 img{
+.section2 img {
     width: 100%;
 }
 
-footer{
+footer {
     border-top: 2px solid red;
     padding-top: 1rem;
     text-align: center;
 }
 
-footer > div{
+.footer_div1{
+    padding: 1rem 0;
+}
+
+.footer_div1 span:not(:first-child)::before {
+    content: "|";
+    padding: 0.5rem;
+}
+
+.footer_div2 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     background-color: red;
     padding: 1rem;
+    padding-bottom: 2rem;
     gap: 1rem;
     color: white;
 }
 
-footer > div svg{
+footer .footer_div2 svg {
     font-size: 1.4rem;
 }
 
-.phone, .facebook, .website{
+.phone,
+.facebook,
+.website {
     display: flex;
     align-items: baseline;
 }
 
-.phone svg{
+.phone svg {
     color: red;
     background-color: white;
     border-radius: 50%;
-    padding: .2rem;
+    padding: 0.2rem;
 }

@@ -39,8 +39,22 @@ function App() {
         </main>
         <footer>
           <b>C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS</b>
-          <p>CHEMICALS & PROCESS | POWER | WATER & WASTE WATER | OILS & GAS PHARMA SUGARS & DISTILLERIES | PAPER & PULP | MARINE & DEFENCE | METAL & MINING | FOOD & BEVERAGE PETROCHEMICAL & REFINERIES | SOLAR | BUILDING | HVAC | FIRE FIGHTING | AGRICULTURE & RESIDENTIAL</p>
-          <div>
+          <div className="footer_div1">
+            <span>CHEMICALS & PROCESS</span>
+            <span>POWER</span>
+            <span>WATER & WASTE WATER</span>
+            <span>OILS & GAS PHARMA SUGARS & DISTILLERIES</span>
+            <span>PAPER & PULP</span>
+            <span>MARINE & DEFENCE</span>
+            <span>METAL & MINING</span>
+            <span>FOOD & BEVERAGE PETROCHEMICAL & REFINERIES</span>
+            <span>SOLAR</span>
+            <span>BUILDING</span>
+            <span>HVAC</span>
+            <span>FIRE FIGHTING</span>
+            <span>AGRICULTURE & RESIDENTIAL</span>
+          </div>
+          <div className="footer_div2">
             <div className="phone">
               <FaPhone/>
               <p>Toll free <b>1800 200 1234</b></p>
